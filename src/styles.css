@@ -1,0 +1,14 @@
+.App {
+  font-family: sans-serif;
+  max-width: 200px;
+}
+
+.nestedFolder {
+  padding: 0px 0px 0px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.nestedChild {
+  padding: 0px 0px 0px 10px;
+  border-left: 1px solid gray;
+}

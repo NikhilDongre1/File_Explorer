@@ -1,0 +1,59 @@
+[
+  {
+    "name": "public",
+    "isFolder": true,
+    "children": []
+  },
+  {
+    "name": "scr",
+    "isFolder": true,
+    "children": [
+      {
+        "name": "App.js",
+        "isFolder": false
+      },
+      {
+        "name": "index.js",
+        "isFolder": false
+      },
+      {
+        "name": "styles.css",
+        "isFolder": false
+      },
+      {
+        "name": "components",
+        "isFolder": true,
+        "children": [
+          {
+            "name": "box.js",
+            "isFolder": false
+          },
+          {
+            "name": "components",
+            "isFolder": true,
+            "children": [
+              {
+                "name": "box.js",
+                "isFolder": false
+              },
+              {
+                "name": "components",
+                "isFolder": true,
+                "children": [
+                  {
+                    "name": "box.js",
+                    "isFolder": false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "styles.css",
+        "isFolder": false
+      }
+    ]
+  }
+]
