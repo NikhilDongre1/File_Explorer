@@ -12,3 +12,13 @@
   padding: 0px 0px 0px 10px;
   border-left: 1px solid gray;
 }
+
+span {
+  cursor: pointer;
+}
+
+img {
+  padding-left: 5px;
+  width: 15px;
+  height: 15px;
+}

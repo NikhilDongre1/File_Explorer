@@ -2,10 +2,38 @@
   {
     "name": "public",
     "isFolder": true,
-    "children": []
+    "children": [
+      {
+        "name": "index.html",
+        "isFolder": false
+      },
+      {
+        "name": "favicon.ico",
+        "isFolder": false
+      },
+      {
+        "name": "assets",
+        "isFolder": true,
+        "children": [
+          {
+            "name": "images",
+            "isFolder": true,
+            "children": [
+              { "name": "logo.png", "isFolder": false },
+              { "name": "banner.jpg", "isFolder": false }
+            ]
+          },
+          {
+            "name": "fonts",
+            "isFolder": true,
+            "children": [{ "name": "Roboto-Regular.ttf", "isFolder": false }]
+          }
+        ]
+      }
+    ]
   },
   {
-    "name": "scr",
+    "name": "src",
     "isFolder": true,
     "children": [
       {
@@ -21,39 +49,181 @@
         "isFolder": false
       },
       {
+        "name": "api",
+        "isFolder": true,
+        "children": [
+          { "name": "axiosConfig.js", "isFolder": false },
+          {
+            "name": "services",
+            "isFolder": true,
+            "children": [
+              { "name": "userService.js", "isFolder": false },
+              { "name": "productService.js", "isFolder": false }
+            ]
+          }
+        ]
+      },
+      {
         "name": "components",
         "isFolder": true,
         "children": [
           {
-            "name": "box.js",
-            "isFolder": false
+            "name": "common",
+            "isFolder": true,
+            "children": [
+              { "name": "Button.js", "isFolder": false },
+              { "name": "Input.js", "isFolder": false },
+              { "name": "Modal.js", "isFolder": false }
+            ]
           },
           {
-            "name": "components",
+            "name": "layout",
+            "isFolder": true,
+            "children": [
+              { "name": "Header.js", "isFolder": false },
+              { "name": "Footer.js", "isFolder": false },
+              {
+                "name": "Sidebar",
+                "isFolder": true,
+                "children": [
+                  { "name": "Sidebar.js", "isFolder": false },
+                  { "name": "SidebarItem.js", "isFolder": false }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ui",
             "isFolder": true,
             "children": [
               {
-                "name": "box.js",
-                "isFolder": false
-              },
-              {
-                "name": "components",
+                "name": "cards",
                 "isFolder": true,
                 "children": [
-                  {
-                    "name": "box.js",
-                    "isFolder": false
-                  }
+                  { "name": "ProductCard.js", "isFolder": false },
+                  { "name": "UserCard.js", "isFolder": false }
                 ]
+              },
+              {
+                "name": "tables",
+                "isFolder": true,
+                "children": [{ "name": "DataTable.js", "isFolder": false }]
               }
             ]
           }
         ]
       },
       {
-        "name": "styles.css",
-        "isFolder": false
+        "name": "pages",
+        "isFolder": true,
+        "children": [
+          {
+            "name": "Home",
+            "isFolder": true,
+            "children": [
+              { "name": "Home.js", "isFolder": false },
+              { "name": "Home.module.css", "isFolder": false }
+            ]
+          },
+          {
+            "name": "Dashboard",
+            "isFolder": true,
+            "children": [
+              { "name": "Dashboard.js", "isFolder": false },
+              {
+                "name": "widgets",
+                "isFolder": true,
+                "children": [
+                  { "name": "StatsWidget.js", "isFolder": false },
+                  { "name": "ChartWidget.js", "isFolder": false }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Auth",
+            "isFolder": true,
+            "children": [
+              { "name": "Login.js", "isFolder": false },
+              { "name": "Register.js", "isFolder": false }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "hooks",
+        "isFolder": true,
+        "children": [
+          { "name": "useAuth.js", "isFolder": false },
+          { "name": "useFetch.js", "isFolder": false }
+        ]
+      },
+      {
+        "name": "context",
+        "isFolder": true,
+        "children": [
+          { "name": "AuthContext.js", "isFolder": false },
+          { "name": "ThemeContext.js", "isFolder": false }
+        ]
+      },
+      {
+        "name": "utils",
+        "isFolder": true,
+        "children": [
+          { "name": "helpers.js", "isFolder": false },
+          { "name": "constants.js", "isFolder": false },
+          {
+            "name": "validators",
+            "isFolder": true,
+            "children": [
+              { "name": "emailValidator.js", "isFolder": false },
+              { "name": "passwordValidator.js", "isFolder": false }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "redux",
+        "isFolder": true,
+        "children": [
+          {
+            "name": "store.js",
+            "isFolder": false
+          },
+          {
+            "name": "slices",
+            "isFolder": true,
+            "children": [
+              { "name": "userSlice.js", "isFolder": false },
+              { "name": "productSlice.js", "isFolder": false }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "tests",
+        "isFolder": true,
+        "children": [
+          {
+            "name": "components",
+            "isFolder": true,
+            "children": [{ "name": "Button.test.js", "isFolder": false }]
+          },
+          {
+            "name": "pages",
+            "isFolder": true,
+            "children": [{ "name": "Home.test.js", "isFolder": false }]
+          }
+        ]
       }
     ]
+  },
+  {
+    "name": "package.json",
+    "isFolder": false
+  },
+  {
+    "name": "README.md",
+    "isFolder": false
   }
 ]
