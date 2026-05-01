@@ -23,6 +23,7 @@ export default function App() {
     };
     setData((prev) => deleteNode(prev));
   };
+  
   const renderFolders = (data) => {
     return data?.map((item) => {
       return (
