@@ -47,6 +47,7 @@ export default function App() {
               {item?.isFolder ? (
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmcodSAtIXafKUinbJYZiaHGz1SAINoYQ-RA&s" />
               ) : null}
+
               <img
                 onClick={() => handleDelete(item)}
                 src="https://icons.veryicon.com/png/o/miscellaneous/forestry-in-yiliang/delete-316.png"
