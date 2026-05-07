@@ -1,10 +1,10 @@
 import { useState } from "react";
 import "./styles.css";
-import folder from "./data.json";
+import folderData from "./data.json";
 
 export default function App() {
   const [isExpanded, setIsExpanded] = useState({});
-  const [data, setData] = useState(folder);
+  const [data, setData] = useState(folderData);
 
   const handleDelete = (file) => {
     console.log(data);
